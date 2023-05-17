@@ -1,5 +1,9 @@
 package com.fuad.crud.product;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -30,6 +34,19 @@ public class ProductController {
         productService.save(product);
         return new ResponseEntity<>("Product save successfully", HttpStatus.CREATED);
     }
+    @Operation(summary = "All book")
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Fetch All books from Db",
+                    content = {@Content(mediaType = "application/json")}
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Not Available",
+                    content = @Content
+            )
+    })
     @GetMapping("/all")
     public ResponseEntity<?> productList(){
         return new ResponseEntity<>(productService.allProduct(), HttpStatus.OK);
