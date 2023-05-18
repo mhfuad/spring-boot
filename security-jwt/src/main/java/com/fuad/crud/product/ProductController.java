@@ -4,6 +4,7 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -30,12 +31,15 @@ public class ProductController {
         productService.save(product);
         return new ResponseEntity<>("Product save successfully", HttpStatus.CREATED);
     }
+
     @GetMapping("/all")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public ResponseEntity<?> productList(){
         return new ResponseEntity<>(productService.allProduct(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public ResponseEntity<?> findProduct(@PathVariable Long id){
         return new ResponseEntity<>(productService.findProduct(id), HttpStatus.FOUND);
 
