@@ -1,0 +1,7 @@
+com/fuad/crud/product/ProductRequest.class
+com/fuad/crud/product/ProductEntity.class
+com/fuad/crud/product/ProductValidationException.class
+com/fuad/security/SecurityApplication.class
+com/fuad/crud/product/ProductController.class
+com/fuad/crud/product/ProductService.class
+com/fuad/crud/product/ProductRepository.class
