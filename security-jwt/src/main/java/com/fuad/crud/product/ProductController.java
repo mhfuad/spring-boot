@@ -33,16 +33,15 @@ public class ProductController {
     }
 
     @GetMapping("/all")
-    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<?> productList(){
         return new ResponseEntity<>(productService.allProduct(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    @PreAuthorize("hasAuthority('ROLE_USER')")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<?> findProduct(@PathVariable Long id){
         return new ResponseEntity<>(productService.findProduct(id), HttpStatus.FOUND);
-
     }
 
     @DeleteMapping("/{id}")
