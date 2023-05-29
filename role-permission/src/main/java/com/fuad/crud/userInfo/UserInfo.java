@@ -19,6 +19,7 @@ public class UserInfo {
     private String name;
     private String email;
     private String password;
+    private boolean enabled;
     @ManyToMany(
             fetch = FetchType.EAGER,
             cascade = CascadeType.ALL
