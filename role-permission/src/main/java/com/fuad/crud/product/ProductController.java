@@ -39,12 +39,13 @@ public class ProductController {
     }
 
     @GetMapping("/{id}")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasPermission('PRODUCT_READ')")
     public ResponseEntity<?> findProduct(@PathVariable Long id){
         return new ResponseEntity<>(productService.findProduct(id), HttpStatus.FOUND);
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> deleteProduct(@PathVariable Long id){
         productService.deleteProduct(id);
         return new ResponseEntity<>("Delete success", HttpStatus.OK);
