@@ -1,0 +1,15 @@
+com/fuad/crud/WelcomeController.class
+com/fuad/crud/userInfo/UserInfoRepository.class
+com/fuad/crud/userInfo/UserInfoController.class
+com/fuad/crud/userInfo/UserInfoService.class
+com/fuad/crud/product/ProductValidationException.class
+com/fuad/crud/UserInfoUserDetails.class
+com/fuad/crud/CrudApplication.class
+com/fuad/crud/userInfo/UserInfo.class
+com/fuad/crud/config/SecurityConfig.class
+com/fuad/crud/product/ProductRequest.class
+com/fuad/crud/product/ProductEntity.class
+com/fuad/crud/product/ProductController.class
+com/fuad/crud/product/ProductService.class
+com/fuad/crud/product/ProductRepository.class
+com/fuad/crud/UserInfoDetailsService.class

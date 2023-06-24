@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="788b67a7-0bdc-4d1c-b479-7ecd948fb791" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/auth/login_save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/auth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/crud/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manyToMany/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/manyToMany/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role-permission/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/role-permission/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-jwt/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/security-jwt/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/security/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/SecurityApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/config/CustomUserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/config/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/product/ProductValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/testing/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/user/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/user/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/user/UserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/user/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/validation/CustomValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/fuad/security/validation/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/security-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/security-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/surefire-reports/TEST-com.fuad.security.SecurityApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/surefire-reports/com.fuad.security.SecurityApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/test-classes/com/fuad/security/SecurityApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/java/com/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymelef/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-data-jpa/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RbcWkcQxfKxIraTYz8kWbGqRzj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="788b67a7-0bdc-4d1c-b479-7ecd948fb791" name="Changes" comment="" />
+      <created>1687522255151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687522255151</updated>
+      <workItem from="1687522257213" duration="61000" />
+      <workItem from="1687584451759" duration="1014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
